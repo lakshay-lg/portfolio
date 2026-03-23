@@ -36,6 +36,7 @@ jobs:
         with:
           node-version: 20
           cache: 'npm'
+          cache-dependency-path: './portfolio/package-lock.json'
       - name: Setup Pages
         uses: actions/configure-pages@v4
         with:
@@ -43,13 +44,17 @@ jobs:
           # small patch to support links in GitHub Pages that do not end with /
           static_site_generator: next
       - name: Install dependencies
+        working-directory: ./portfolio
         run: npm install
       - name: Build with Next.js
-        run: npx next build
+        working-directory: ./portfolio
+        run: npm run build
+      - name: Debug: List out directory
+        run: ls -R portfolio/out || echo "out directory not found"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./portfolio/out
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
