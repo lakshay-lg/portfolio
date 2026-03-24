@@ -21,7 +21,7 @@ export default function Home() {
           Building robust systems from the ground up—from Unix shells and high-performance Redis clones to Agentic RAG pipelines and LLM evaluation frameworks.
         </p>
         <div style={{ display: 'flex', gap: '1.5rem' }}>
-          <a href="https://github.com/lakshayf9" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+          <a href="https://github.com/lakshay-lg" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
             <Code size={20} /> Github
           </a>
           <a href="https://linkedin.com/in/lakshay-aa7510293/" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
@@ -227,9 +227,15 @@ export default function Home() {
             © 2026 LAKSHAY. BUILT WITH NEXT.JS
           </div>
           <div style={{ display: 'flex', gap: '1.5rem' }}>
-            <Code size={20} style={{ opacity: 0.5 }} />
-            <User size={20} style={{ opacity: 0.5 }} />
-            <Mail size={20} style={{ opacity: 0.5 }} />
+            <a href="https://github.com/lakshay-lg" target="_blank" rel="noopener noreferrer" style={{ opacity: 0.5 }}>
+              <Code size={20} />
+            </a>
+            <a href="https://linkedin.com/in/lakshay-aa7510293/" target="_blank" rel="noopener noreferrer" style={{ opacity: 0.5 }}>
+              <User size={20} />
+            </a>
+            <a href="mailto:lakshayf9@gmail.com" style={{ opacity: 0.5 }}>
+              <Mail size={20} />
+            </a>
           </div>
         </div>
       </footer>
