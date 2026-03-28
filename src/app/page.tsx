@@ -49,9 +49,7 @@ export default function Home() {
               <span className="tag">Networking</span>
               <span className="tag">System Design</span>
             </div>
-            <a href="#" className="mono" style={{ fontSize: '0.8rem', color: 'var(--primary)', display: 'flex', alignItems: 'center' }}>
-              READ BLUEPRINT <ChevronRight size={14} />
-            </a>
+
           </div>
 
           <div className="card">
@@ -64,9 +62,7 @@ export default function Home() {
               <span className="tag">Linux Kernel</span>
               <span className="tag">POSIX</span>
             </div>
-            <a href="#" className="mono" style={{ fontSize: '0.8rem', color: 'var(--primary)', display: 'flex', alignItems: 'center' }}>
-              VIEW SOURCE <ChevronRight size={14} />
-            </a>
+
           </div>
 
           <div className="card">
@@ -79,9 +75,7 @@ export default function Home() {
               <span className="tag">ONNX</span>
               <span className="tag">CUDA</span>
             </div>
-            <a href="#" className="mono" style={{ fontSize: '0.8rem', color: 'var(--primary)', display: 'flex', alignItems: 'center' }}>
-              BENCHMARKS <ChevronRight size={14} />
-            </a>
+
           </div>
         </div>
       </section>
@@ -118,7 +112,7 @@ export default function Home() {
               <span className="tag">Flask</span>
               <span className="tag">NumPy / Pandas</span>
               <span className="tag">Gunicorn</span>
-            </div>
+            </div> 
             <a href="https://books.lakshay.systems/" target="_blank" rel="noopener noreferrer" className="mono" style={{ fontSize: '0.8rem', color: 'var(--primary)', display: 'flex', alignItems: 'center' }}>
               LIVE DEMO <ChevronRight size={14} />
             </a>
@@ -144,8 +138,8 @@ export default function Home() {
               <span className="tag">Redis</span>
               <span className="tag">PostgreSQL</span>
             </div>
-            <a href="#" className="mono" style={{ fontSize: '0.8rem', color: 'var(--primary)', display: 'flex', alignItems: 'center' }}>
-              LOAD TEST DATA <ChevronRight size={14} />
+            <a href="https://github.com/lakshay-lg/ShopSphere" target="_blank" rel="noopener noreferrer" className="mono" style={{ fontSize: '0.8rem', color: 'var(--primary)', display: 'flex', alignItems: 'center' }}>
+              VIEW REPO <ChevronRight size={14} />
             </a>
           </div>
 
