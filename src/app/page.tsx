@@ -18,7 +18,7 @@ export default function Home() {
         <p style={{ fontSize: '1.25rem', maxWidth: '700px', lineHeight: '1.6', color: '#a1a1aa', marginBottom: '2rem' }}>
           IIT Delhi '27 • Civil Engineering • Computer Science Minor
           <br />
-          Building robust systems from the ground up—from Unix shells and high-performance Redis clones to Agentic RAG pipelines and LLM evaluation frameworks.
+          Building robust systems from the ground up—from Unix shells and high-performance Redis clones to Agentic RAG pipelines and edge AI optimization.
         </p>
         <div style={{ display: 'flex', gap: '1.5rem' }}>
           <a href="https://github.com/lakshay-lg" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
@@ -108,34 +108,23 @@ export default function Home() {
           </div>
 
           <div className="card">
-            <h3 style={{ marginBottom: '0.75rem' }}>LLM Evaluation Framework</h3>
+            <h3 style={{ marginBottom: '0.75rem' }}>Book Recommender System</h3>
             <p style={{ fontSize: '0.9rem', color: '#a1a1aa', marginBottom: '1rem' }}>
-              Lightweight framework to benchmark model reasoning, instruction-following, and hallucination detection.
+              Full-stack discovery engine powered by collaborative filtering on 270k+ books. Precomputes pairwise cosine similarity across a 706×810 user-book pivot matrix to surface titles that resonate with the same audience — no genre tags, just pure behavioural signal.
             </p>
             <div style={{ marginBottom: '1rem' }}>
-              <span className="tag">PyTorch</span>
-              <span className="tag">LLM Benchmarking</span>
-              <span className="tag">Analytics</span>
+              <span className="tag">Python</span>
+              <span className="tag">scikit-learn</span>
+              <span className="tag">Flask</span>
+              <span className="tag">NumPy / Pandas</span>
+              <span className="tag">Gunicorn</span>
             </div>
-            <a href="#" className="mono" style={{ fontSize: '0.8rem', color: 'var(--primary)', display: 'flex', alignItems: 'center' }}>
-              CASE STUDY <ChevronRight size={14} />
+            <a href="https://books.lakshay.systems/" target="_blank" rel="noopener noreferrer" className="mono" style={{ fontSize: '0.8rem', color: 'var(--primary)', display: 'flex', alignItems: 'center' }}>
+              LIVE DEMO <ChevronRight size={14} />
             </a>
           </div>
 
-          <div className="card">
-            <h3 style={{ marginBottom: '0.75rem' }}>Transformer From Scratch</h3>
-            <p style={{ fontSize: '0.9rem', color: '#a1a1aa', marginBottom: '1rem' }}>
-              Decoder-only Transformer implementation (multi-head attention, causal masking) with training stability analysis.
-            </p>
-            <div style={{ marginBottom: '1rem' }}>
-              <span className="tag">PyTorch</span>
-              <span className="tag">CUDA</span>
-              <span className="tag">Architecture</span>
-            </div>
-            <a href="#" className="mono" style={{ fontSize: '0.8rem', color: 'var(--primary)', display: 'flex', alignItems: 'center' }}>
-              READ DOCS <ChevronRight size={14} />
-            </a>
-          </div>
+
         </div>
       </section>
 
