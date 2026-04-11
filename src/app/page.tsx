@@ -96,7 +96,7 @@ export default function Home() {
               <span className="tag">LangChain</span>
               <span className="tag">FAISS</span>
             </div>
-            <a href="#" className="mono" style={{ fontSize: '0.8rem', color: 'var(--primary)', display: 'flex', alignItems: 'center' }}>
+            <a href="https://leqz275-rag-chat.hf.space" target="_blank" rel="noopener noreferrer" className="mono" style={{ fontSize: '0.8rem', color: 'var(--primary)', display: 'flex', alignItems: 'center' }}>
               EXPLORE ARCHITECTURE <ChevronRight size={14} />
             </a>
           </div>
