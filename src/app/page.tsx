@@ -89,15 +89,20 @@ export default function Home() {
           <div className="card">
             <h3 style={{ marginBottom: '0.75rem' }}>Agentic RAG System</h3>
             <p style={{ fontSize: '0.9rem', color: '#a1a1aa', marginBottom: '1rem' }}>
-              Autonomous pipeline using LangChain and FAISS for complex document understanding and multi-step reasoning.
+              Chat across multiple PDFs simultaneously. Chunks, embeds, and indexes documents into FAISS at upload time — then uses conversational memory to handle follow-up questions naturally. Switch between Llama, Qwen, and other Groq-hosted LLMs mid-conversation without losing context.
             </p>
             <div style={{ marginBottom: '1rem' }}>
               <span className="tag">Python</span>
               <span className="tag">LangChain</span>
               <span className="tag">FAISS</span>
+              <span className="tag">Groq</span>
+              <span className="tag">Gradio</span>
             </div>
             <a href="https://leqz275-rag-chat.hf.space" target="_blank" rel="noopener noreferrer" className="mono" style={{ fontSize: '0.8rem', color: 'var(--primary)', display: 'flex', alignItems: 'center' }}>
-              EXPLORE ARCHITECTURE <ChevronRight size={14} />
+              LIVE DEMO <ChevronRight size={14} />
+            </a>
+            <a href="https://colab.research.google.com/drive/1OdkK15xgg8HdmrfEyQVAw0Pypc2GjsJ7?usp=sharing" target="_blank" rel="noopener noreferrer" className="mono" style={{ fontSize: '0.8rem', color: 'var(--primary)', display: 'flex', alignItems: 'center', marginTop: '0.5rem' }}>
+              VIEW COLAB <ChevronRight size={14} />
             </a>
           </div>
 
