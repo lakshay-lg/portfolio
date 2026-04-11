@@ -149,17 +149,17 @@ export default function Home() {
           </div>
 
           <div className="card">
-            <h3 style={{ marginBottom: '0.75rem' }}>Mini-Vercel Deployment Platform</h3>
+            <h3 style={{ marginBottom: '0.75rem' }}>ShipyardDeploy</h3>
             <p style={{ fontSize: '0.9rem', color: '#a1a1aa', marginBottom: '1rem' }}>
-              Automated cloud platform that builds and hosts sites from GitHub via Docker and a custom reverse proxy.
+              Vercel-style deployment platform that clones GitHub repos, automates build pipelines, and serves per-project preview URLs with real-time logs.
             </p>
             <div style={{ marginBottom: '1rem' }}>
-              <span className="tag">Docker</span>
+              <span className="tag">TypeScript</span>
               <span className="tag">Node.js</span>
-              <span className="tag">Nginx</span>
+              <span className="tag">WebSocket</span>
             </div>
-            <a href="#" className="mono" style={{ fontSize: '0.8rem', color: 'var(--primary)', display: 'flex', alignItems: 'center' }}>
-              LIVE DEMO <ChevronRight size={14} />
+            <a href="https://github.com/lakshay-lg/ShipyardDeploy" target="_blank" rel="noopener noreferrer" className="mono" style={{ fontSize: '0.8rem', color: 'var(--primary)', display: 'flex', alignItems: 'center' }}>
+              VIEW REPO <ChevronRight size={14} />
             </a>
           </div>
         </div>
